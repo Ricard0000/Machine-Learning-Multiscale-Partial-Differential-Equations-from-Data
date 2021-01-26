@@ -1,8 +1,7 @@
-#Part 2 production of data and accuracy test
+#Production of data for linear kinetic equation (its a coupled system of \rho and g):
 
-#416
-#507
-#548
+#\partial_{t}\rho&=-\partial_{x}\langle vg\rangle-\sigma^{A}\rho + G
+#\partial_{t}g&=-\dfrac{1}{\veps}\left(\mathcal{I}-\langle \ \rangle\right)(v\partial_{x}g)-\dfrac{1}{\veps^{2}}v\partial_{x}\rho-\dfrac{\sigma^{S}}{\veps^{2}}g-\sigma^{A}g,
 
 import sys
 sys.path.insert(0, '../../Utilities/')
